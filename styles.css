@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: Arvo;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+h2 {
+  font-size: 1.8em;
+}
+.margin-bottom {
+  margin-bottom: 1em;
+}
+
+.box-one,
+.box-two,
+.box-three {
+  padding: 2rem;
+}
+
+.box-one h2 {
+  color: #1eb3aa;
+}
+
+.box-one h3 {
+  color: #cae647;
+}
+
+.box-one h4 {
+  color: #b6bac6;
+  line-height: 1.8em;
+}
+
+.box-two {
+  background-color: #2bb3b1;
+  color: white;
+
+  border-top: 2px solid #2cb1af;
+  border-bottom: 2px solid #2cb1af;
+}
+
+.box-two h1 {
+  position: relative;
+  margin-bottom: 0.5em;
+}
+
+.box-two h1 span {
+  font-size: 0.5em;
+  color: #baf0f4;
+}
+
+.box-two h3 {
+  margin-bottom: 2em;
+}
+
+div.sign-up {
+  background-color: #bfdf32;
+  text-align: center;
+  padding: 15px;
+  border-radius: 0.5em;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.box-three {
+  background-color: #4abebd;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  color: #baf0f4;
+}
+
+@media only screen and (min-width: 1080px) {
+  container.box {
+    display: flex;
+  }
+  .box-two {
+    flex: 1;
+  }
+  .box-three {
+    flex: 1;
+  }
+  .box-one,
+  .box-two,
+  .box-three {
+    padding: 4rem;
+  }
+}
